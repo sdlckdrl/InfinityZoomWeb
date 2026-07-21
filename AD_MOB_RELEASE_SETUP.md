@@ -24,12 +24,15 @@ https://sdlckdrl.github.io/InfinityZoomWeb/app-ads.txt
 https://sdlckdrl.github.io/app-ads.txt
 ```
 
-따라서 스토어 등록 전에 아래 둘 중 하나를 처리한다.
+루트 Pages 사이트는 이미 [sdlckdrl/sdlckdrl.github.io](https://github.com/sdlckdrl/sdlckdrl.github.io) 저장소로 만들었고, 실제 파일은 위의 최종 주소에서 제공한다. Google Play Console의 개발자 웹사이트도 `https://sdlckdrl.github.io/`로 지정한다.
 
-1. `sdlckdrl.github.io` 사용자 Pages 사이트(또는 같은 도메인의 루트 웹서버)를 만들고 이 저장소의 [app-ads.txt](app-ads.txt) 내용을 루트에 배포한다.
-2. 소유한 별도 도메인을 개발자 웹사이트로 정하고, 그 도메인의 `/app-ads.txt`에 같은 파일을 배포한다.
+이 저장소의 [app-ads.txt](app-ads.txt)는 원본과 변경 이력을 보관하기 위한 동기화 사본이다. 광고 네트워크를 추가하거나 AdMob의 개인화된 안내가 바뀌면 두 저장소의 파일을 함께 갱신한다.
 
-Google Play Console의 개발자 웹사이트도 실제 `app-ads.txt`가 있는 도메인으로 지정한다. 이 저장소의 파일은 원본과 변경 이력을 보관하기 위한 것이며, 프로젝트 Pages 하위 경로만으로는 인증을 완료할 수 없다.
+## 현재 공개 상태
+
+- [x] 공개 개인정보처리방침: <https://sdlckdrl.github.io/InfinityZoomWeb/privacy-policy.html>
+- [x] 개발자 웹사이트: <https://sdlckdrl.github.io/>
+- [x] AdMob 루트 파일: <https://sdlckdrl.github.io/app-ads.txt>
 
 ## AdMob 콘솔에서 할 일
 
@@ -43,10 +46,10 @@ Android 앱은 이미 UMP로 동의 상태를 확인한 다음 실제 광고를 
 
 ### 2. app-ads.txt 확인
 
-1. 위의 도메인 최상단 URL에 파일을 공개한다.
+1. <https://sdlckdrl.github.io/app-ads.txt>에서 파일이 공개되어 있는지 확인한다.
 2. AdMob의 앱 설정에서 제공하는 개인화된 app-ads.txt 안내와 파일의 `pub-4128679666064461` 값이 같은지 확인한다.
 3. AdMob의 **app-ads.txt** 상태에서 크롤링 또는 확인을 요청한다.
-4. 공개 URL을 브라우저에서 열어 한 줄의 텍스트가 보이는지 확인한다.
+4. 광고 네트워크를 추가하거나 AdMob 안내가 바뀌면 루트 저장소와 이 저장소의 파일을 함께 갱신한다.
 
 ## 스토어 제출 전 확인
 
