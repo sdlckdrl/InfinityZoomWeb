@@ -21,7 +21,7 @@
       패키지: <code>com.sdlckdrl.infinitezoom</code> (Google Play), <code>com.sdlckdrl.infinitezoom.galaxy</code> (Galaxy Store)<br>
       개발자: 이창기<br>
       개인정보 및 지원 문의: <a href="mailto:sdlckdrl@gmail.com">sdlckdrl@gmail.com</a><br>
-      시행일: 2026년 7월 15일
+      시행일: 2026년 7월 21일
     </p>
     <p>인피니티 줌 - 무한 사진 줌(이하 “앱”)은 여러 사진을 연결해 무한 줌 프로젝트와 동영상을 만드는 Android 앱입니다. 이 방침은 앱이 처리하는 정보, 처리 위치, 보관 기간 및 사용자가 관리할 수 있는 방법을 설명합니다.</p>
 
@@ -38,15 +38,23 @@
 
     <h2>2. 기기 내 처리와 개발자의 수집 여부</h2>
     <p>사진 해석, 프로젝트 편집, 렌더링 및 이미지 처리는 모두 사용자의 기기에서 이루어집니다. 앱은 사용자의 사진, 프로젝트 또는 동영상을 개발자가 운영하는 서버로 전송하지 않으며 원격 AI API도 사용하지 않습니다.</p>
-    <p>개발자는 앱을 통해 사용자 데이터를 수집하거나 개발자 주도로 제3자에게 전송하지 않습니다. 사용자가 직접 시작하는 동영상 공유와 ZIP 내보내기는 5절에 설명합니다. 앱에는 다음 기능이 없습니다.</p>
+    <p>개발자는 자체 서버를 통해 사진, 프로젝트 또는 동영상을 수집하거나 개발자 주도로 제3자에게 전송하지 않습니다. 사용자가 직접 시작하는 동영상 공유와 ZIP 내보내기는 6절에 설명합니다. 광고와 동의 관리를 위해 처리될 수 있는 정보는 3절에 별도로 설명합니다. 앱에는 다음 기능이 없습니다.</p>
     <ul>
-      <li>광고 또는 광고 식별자</li>
-      <li>사용 분석 또는 충돌 보고 SDK</li>
-      <li>사용자 추적, 프로파일링 또는 맞춤 광고</li>
+      <li>개발자가 별도로 운영하는 사용 분석 또는 충돌 보고 시스템</li>
       <li>자체 서버, 클라우드 동기화 또는 원격 AI 처리</li>
     </ul>
 
-    <h2>3. 저장 위치와 보관 기간</h2>
+    <h2>3. 광고 및 동의 관리</h2>
+    <p>앱은 광고를 표시하기 위해 <strong>Google Mobile Ads SDK</strong>를 사용하고, 지역별로 필요한 개인정보 선택을 받거나 관리하기 위해 <strong>Google User Messaging Platform(UMP)</strong>을 사용합니다. 사용자의 동의, 지역, 기기 설정 및 표시되는 광고 유형에 따라 Google과 광고 파트너는 광고 제공·측정, 허용된 경우의 맞춤화 및 부정 사용 방지를 위해 다음 정보를 처리할 수 있습니다.</p>
+    <ul>
+      <li>IP 주소, 기기 및 앱 정보</li>
+      <li>Android 광고 식별자와 광고 관련 기기 설정</li>
+      <li>광고 노출·클릭 등 광고 상호작용</li>
+      <li>진단 정보와 부정행위 방지 신호</li>
+    </ul>
+    <p>사용자가 선택한 사진·동영상, 프로젝트 파일, 마스크 및 렌더링 영상은 광고 SDK에 제공되지 않습니다. 동의 선택을 다시 제공해야 하는 지역에서는 앱의 <strong>앱 정보 → 개인정보 및 광고 설정</strong>에서 선택을 다시 확인할 수 있습니다. Google과 광고 파트너의 처리는 각 사업자의 개인정보처리방침을 따릅니다.</p>
+
+    <h2>4. 저장 위치와 보관 기간</h2>
     <p>앱은 사용자가 선택한 사진의 사본과 프로젝트 설정을 앱 전용 저장공간에 보관합니다. 프로젝트가 존재하는 동안 해당 자료를 보관합니다.</p>
     <ul>
       <li>프로젝트를 삭제하면 해당 프로젝트에 저장된 사진 사본과 설정이 삭제됩니다.</li>
@@ -55,7 +63,7 @@
       <li>앱을 제거하면 앱 전용 저장공간의 프로젝트와 저장된 사진 사본이 삭제됩니다.</li>
     </ul>
 
-    <h2>4. 앱 제거 후에도 남을 수 있는 자료</h2>
+    <h2>5. 앱 제거 후에도 남을 수 있는 자료</h2>
     <p>다음 자료는 앱 전용 저장공간 밖에 있으므로 프로젝트 삭제 또는 앱 제거 후에도 남을 수 있습니다.</p>
     <ul>
       <li>지원되는 Android 버전에서 <code>Movies/InfiniteZoom</code>에 저장한 MP4 동영상</li>
@@ -64,11 +72,11 @@
     </ul>
     <p>이 자료는 갤러리, 파일 앱 또는 전송한 서비스에서 사용자가 별도로 삭제해야 합니다. 구형 Android 버전에서는 앱 전용 저장공간에 저장된 내보내기 파일이 앱 제거와 함께 삭제될 수 있습니다.</p>
 
-    <h2>5. 가져오기, 내보내기 및 외부 공유</h2>
+    <h2>6. 가져오기, 내보내기 및 외부 공유</h2>
     <p>앱은 사용자가 직접 고른 ZIP 파일만 가져옵니다. 백업 내보내기와 동영상 공유도 사용자가 명시적으로 요청할 때만 시작됩니다. 내보낸 ZIP에는 프로젝트 설정과 앱이 해당 프로젝트용으로 보관한 선택 사진 사본이 들어갑니다.</p>
     <p>사용자가 공유 대상을 선택하면 Android가 선택한 MP4에 대한 읽기 접근 권한을 해당 앱에 제공합니다. ZIP 저장 위치로 클라우드 또는 다른 문서 제공자를 선택하면 그 서비스가 ZIP 사본을 처리할 수 있습니다. 이후 사본은 수신 앱, 문서 제공자 또는 클라우드 서비스의 개인정보처리방침에 따라 처리됩니다. 앱 개발자는 해당 제3자 서비스의 보관 또는 삭제를 통제하지 않습니다.</p>
 
-    <h2>6. 사용자의 관리 방법</h2>
+    <h2>7. 사용자의 관리 방법</h2>
     <p>사용자는 다음과 같이 앱 데이터를 관리할 수 있습니다.</p>
     <ul>
       <li>프로젝트 메뉴에서 개별 프로젝트 삭제</li>
@@ -76,20 +84,21 @@
       <li>앱 제거</li>
       <li>갤러리 또는 파일 앱에서 내보낸 MP4와 ZIP 백업 삭제</li>
       <li>공유한 서비스에서 공유 사본 삭제 요청 또는 직접 삭제</li>
+      <li>앱 정보 메뉴에서 개인정보 및 광고 선택 다시 확인(해당 지역에서 요구되는 경우)</li>
     </ul>
     <p>앱은 사용자 계정을 만들지 않으므로 별도의 계정 삭제 절차는 없습니다.</p>
 
-    <h2>7. 아동의 개인정보</h2>
-    <p>앱은 개발자가 운영하는 서버로 어떠한 사용자 데이터도 수집하지 않으며, 아동을 대상으로 개인정보를 수집하는 기능도 제공하지 않습니다.</p>
+    <h2>8. 아동의 개인정보</h2>
+    <p>앱은 아동을 대상으로 설계되지 않았으며 개발자가 운영하는 서버로 사진, 프로젝트 또는 동영상을 수집하지 않습니다. 스토어의 타깃 연령 및 광고 설정은 실제 이용 대상과 관련 법령에 맞게 구성합니다.</p>
 
-    <h2>8. 문의</h2>
+    <h2>9. 문의</h2>
     <ul>
       <li>개발자: 이창기</li>
       <li>개인정보 및 앱 지원 문의: <a href="mailto:sdlckdrl@gmail.com">sdlckdrl@gmail.com</a></li>
     </ul>
     <p>문의 해결에 꼭 필요한 경우가 아니라면 비공개 사진, 프로젝트 백업, 인증 정보 또는 그 밖의 민감한 정보를 보내지 마세요.</p>
 
-    <h2>9. 방침 변경</h2>
+    <h2>10. 방침 변경</h2>
     <p>이 방침이 변경되면 수정된 내용과 새 시행일을 공개 개인정보처리방침 웹페이지와 앱 안의 개인정보처리방침에 게시합니다.</p>
 
     <hr>
@@ -101,7 +110,7 @@
         Packages: <code>com.sdlckdrl.infinitezoom</code> (Google Play), <code>com.sdlckdrl.infinitezoom.galaxy</code> (Galaxy Store)<br>
         Developer: 이창기<br>
         Privacy and support: <a href="mailto:sdlckdrl@gmail.com">sdlckdrl@gmail.com</a><br>
-        Effective date: July 15, 2026
+        Effective date: July 21, 2026
       </p>
       <p>Infinity Zoom - Photo Zoom (the “App”) is an Android app for connecting photos into infinite-zoom projects and videos. This policy explains what the App handles, where processing occurs, how long content is kept, and the controls available to you.</p>
 
@@ -118,15 +127,23 @@
 
       <h2>2. On-device processing and developer collection</h2>
       <p>Photo decoding, project editing, rendering, and image processing take place on your device. The App does not send photos, projects, or videos to a developer-operated server and does not use a remote AI API.</p>
-      <p>The developer does not collect App data or transmit it to third parties on the developer's initiative. User-initiated video sharing and ZIP export are described in section 5. The App contains no:</p>
+      <p>The developer does not collect photos, projects, or videos through a developer-operated server or transmit them to third parties on the developer's initiative. User-initiated video sharing and ZIP export are described in section 6. Information that may be processed for advertising and consent management is described separately in section 3. The App contains no:</p>
       <ul>
-        <li>Advertising or advertising identifiers</li>
-        <li>Analytics or crash-reporting SDKs</li>
-        <li>User tracking, profiling, or personalized advertising</li>
+        <li>Separately operated developer analytics or crash-reporting system</li>
         <li>Developer-operated server, cloud sync, or remote AI processing</li>
       </ul>
 
-      <h2>3. Storage and retention</h2>
+      <h2>3. Advertising and consent</h2>
+      <p>The App uses <strong>Google Mobile Ads SDK</strong> to display ads and the <strong>Google User Messaging Platform (UMP)</strong> to collect or manage privacy choices required in applicable regions. Depending on your consent, region, device settings, and the type of ad served, Google and its advertising partners may process the following information for ad delivery and measurement, personalization where permitted, fraud prevention, and abuse prevention:</p>
+      <ul>
+        <li>IP address and device and app information</li>
+        <li>Android advertising identifiers and related device settings</li>
+        <li>Ad interactions such as impressions and clicks</li>
+        <li>Diagnostics and fraud-prevention signals</li>
+      </ul>
+      <p>Your selected photos, videos, project files, masks, and rendered videos are not provided to the advertising SDK. Where a renewed choice is required, you can revisit it from <strong>App information → Privacy and ad choices</strong>. Processing by Google and advertising partners is governed by their respective privacy policies.</p>
+
+      <h2>4. Storage and retention</h2>
       <p>The App stores copies of selected photos and project settings in private app storage while the project exists.</p>
       <ul>
         <li>Deleting a project deletes the stored photo copies and settings belonging to that project.</li>
@@ -135,7 +152,7 @@
         <li>Uninstalling the App removes projects and stored photo copies from private app storage.</li>
       </ul>
 
-      <h2>4. Content that may remain after deletion or uninstall</h2>
+      <h2>5. Content that may remain after deletion or uninstall</h2>
       <p>The following content is outside private app storage and may remain after you delete a project or uninstall the App:</p>
       <ul>
         <li>MP4 videos saved to <code>Movies/InfiniteZoom</code> on supported Android versions</li>
@@ -144,11 +161,11 @@
       </ul>
       <p>You must remove these separately in Gallery, Files, or the destination service. On older Android versions, an export stored in app-specific storage may instead be removed when the App is uninstalled.</p>
 
-      <h2>5. Import, export, and external sharing</h2>
+      <h2>6. Import, export, and external sharing</h2>
       <p>The App imports only a ZIP file you select. Backup export and video sharing begin only after your explicit action. An exported ZIP contains the project settings and selected photo copies that the App stores for that project.</p>
       <p>When you choose a share destination, Android grants that app read access to the selected MP4. If you choose a cloud or other document provider as the ZIP destination, that service can process its ZIP copy. The receiving app, document provider, or cloud service then handles its copy under its own privacy policy. The App developer does not control retention or deletion by that third-party service.</p>
 
-      <h2>6. Your controls</h2>
+      <h2>7. Your controls</h2>
       <p>You can manage content by:</p>
       <ul>
         <li>Deleting an individual project from its project menu</li>
@@ -156,20 +173,21 @@
         <li>Uninstalling the App</li>
         <li>Deleting exported MP4 videos and ZIP backups in Gallery or Files</li>
         <li>Deleting a shared copy from the receiving service or asking that service to delete it</li>
+        <li>Revisiting privacy and advertising choices from App information where required</li>
       </ul>
       <p>The App has no user accounts, so there is no separate account-deletion process.</p>
 
-      <h2>7. Children's privacy</h2>
-      <p>The App does not collect any user data through a developer-operated server and provides no feature intended to collect personal information from children.</p>
+      <h2>8. Children's privacy</h2>
+      <p>The App is not designed for children and does not collect photos, projects, or videos through a developer-operated server. Store target-audience and advertising settings must match the actual intended audience and applicable law.</p>
 
-      <h2>8. Contact</h2>
+      <h2>9. Contact</h2>
       <ul>
         <li>Developer: 이창기</li>
         <li>Privacy and App support: <a href="mailto:sdlckdrl@gmail.com">sdlckdrl@gmail.com</a></li>
       </ul>
       <p>Do not send private photos, project backups, credentials, or other sensitive information unless it is necessary to resolve your request.</p>
 
-      <h2>9. Changes to this policy</h2>
+      <h2>10. Changes to this policy</h2>
       <p>If this policy changes, the updated text and a new effective date will be published on the public Privacy Policy webpage and in the App's in-app Privacy Policy.</p>
     </div>
   </main>
